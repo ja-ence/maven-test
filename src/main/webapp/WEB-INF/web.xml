@@ -43,7 +43,7 @@
 		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
 	</listener>
 	<!-- spring mvc servlet -->
-<!-- 	<servlet>
+ 	<servlet>
 		<description>spring mvc servlet</description>
 		<servlet-name>springMvc</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -56,8 +56,8 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>springMvc</servlet-name>
-		<url-pattern>*.shtml</url-pattern>
-	</servlet-mapping> -->
+		<url-pattern>*</url-pattern>
+	</servlet-mapping> 
 
 	<!-- <error-page> <error-code>404</error-code> <location>/open/404.shtml</location> 
 		</error-page> <error-page> <error-code>500</error-code> <location>/open/404.shtml</location> 
