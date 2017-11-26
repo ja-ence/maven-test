@@ -56,7 +56,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>springMvc</servlet-name>
-		<url-pattern>*</url-pattern>
+		<url-pattern>/*</url-pattern>
 	</servlet-mapping> 
 
 	<!-- <error-page> <error-code>404</error-code> <location>/open/404.shtml</location> 
